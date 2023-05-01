@@ -1,0 +1,82 @@
+.name{
+    font-size: 40px;
+    font-weight: bolder;
+}
+h1{
+    font-weight: lighter;
+    font-size: 30px;
+}
+h2{
+    font-size: 30px;
+    font-weight:500;
+}
+button{
+    padding: 20px 30px;
+    border: 1px solid burlywood;
+    background-color: orange;
+    color:white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+button:hover{
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    color:black;
+}
+section{
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+    background-color:rgb(253, 253, 222);
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 25px;
+}
+.weather{
+font-size: 30px;
+}
+.one-paragraph{
+    font-size: 20px;
+    font-family: lighter;
+}
+ul{
+    list-style-type: none;
+}
+.food{
+    font-size: 25px;
+    font-weight: 500;
+}
+.two-paragraph{
+    font-size:18px ;
+}
+.kanji{
+    font-size: 25px;
+    font-weight: 500;
+}
+.three-paragraph{
+    font-size:18px ;
+}
+header{
+padding: 20px 0px;
+}
+nav li{
+   margin-left: 25px;
+   display: inline; 
+}
+
+
+
+.working{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.box{
+    font-size: 35px;
+}
+footer{
+    padding: 20px 30px;
+    background-color:rgb(234, 255, 202);
+    margin-top:60px;
+}
