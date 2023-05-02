@@ -18,11 +18,17 @@ button{
     border-radius: 10px;
     font-size: 18px;
     margin-top: 20px;
+    box-shadow: 3px 3px 3px 3px;
+    
 }
 button:hover{
     transition: all 200ms ease-in-out;
     cursor: pointer;
     color:black;
+    
+}
+.feature{
+    text-align: center;
 }
 section{
     text-align: center;
@@ -60,14 +66,13 @@ ul{
 }
 header{
 padding: 20px 0px;
+border: 1px solid white;
+background-color: rgb(252, 247, 239);
 }
 nav li{
    margin-left: 25px;
    display: inline; 
 }
-
-
-
 .working{
     font-size: 20px;
     font-weight: lighter;
@@ -75,8 +80,27 @@ nav li{
 .box{
     font-size: 35px;
 }
+
 footer{
-    padding: 20px 30px;
-    background-color:rgb(234, 255, 202);
-    margin-top:60px;
+    border: 1px solid white;
+    background-color:cadetblue;
+    color: white;
+    border-radius:4px;
+    box-shadow: 20px;
+    
 }
+.information{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.line{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.data{
+    padding: 20px 30px;
+    background-color: chocolate;
+    color: white;
+}
+
+

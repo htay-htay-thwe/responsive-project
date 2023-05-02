@@ -1,0 +1,58 @@
+button{
+    padding: 20px 30px;
+    border: 1px solid orange;
+    color: black;
+    background-color: orange;
+    display: block;
+    box-shadow: 3px 3px ;
+}
+.intro{
+    font-family: 'Playfair Display', serif;
+}
+.name{
+    font-family: 'Playfair Display', serif;
+    color: blueviolet;
+}
+.para{
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    font-weight: lighter;
+    
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+    transition: all 200ms ease-in-out;
+}
+header{
+padding: 20px 0px;
+border: 1px solid white;
+background-color: rgb(252, 247, 239);
+}
+nav li{
+   margin-left: 25px;
+   display: inline; 
+}
+footer{
+    border: 1px solid white;
+    background-color:cadetblue;
+    color: white;
+    border-radius:4px;
+    box-shadow: 20px;
+    
+}
+.information{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.line{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.data{
+    padding: 20px 30px;
+    background-color: chocolate;
+    color: white;
+}
+

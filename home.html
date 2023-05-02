@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/930e3b0b55.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -18,18 +19,15 @@
             <nav class="d-flex justify-content-between">
     <img src="images/niche logo.png" class="img-fluid niche" width="90">
     
-        <ul class="navigator mt-4">
+        <ul class="navigator mt-4" id="menu">
             <li>
-                Home
+              <a href="home.html" class="text-decoration-none text-dark">Home</a>
             </li>
             <li>
-                About
+             <a href="about.html" class="text-decoration-none text-dark">  About</a>
             </li>
             <li>
-                Work
-            </li>
-            <li>
-                Contact
+             <a href="mailto:htayhtaythwe962@gmail.com" class="text-decoration-none text-dark"> Contact</a>
             </li>
         </ul>
     </nav>
@@ -47,11 +45,11 @@ Htay Htay Thwe
 <h2>
 Front-end developer based in Myanmar
 </h2>
-<button class="rounded">Contact me</button>
+<button class="rounded"><a href="mailto:htayhtaythwe962@gmail.com" class="text-decoration-none text-white">Contact me</a></button>
 </section>
-<h3 class="mt-4">
+<h2 class="feature mt-4">
     Featured project which my best projects be choice to show
-</h3>
+</h2>
 <div class="container mt-4">
 <div class="row">
         <div class="col-md-6">
@@ -65,7 +63,10 @@ Front-end developer based in Myanmar
             <li class="one-paragraph">
                This weather app is one of best free weather apps with full features: Local weather, weather map (weather map service) and weather widgets. Forecastle: Forecast now, hourly forecast and daily forecast … 
             </li>
+            <br/>
+             <li class="btn btn-primary app"><a href="#menu" class="text-decoration-none text-white">Launch App</a></li>
             </ul>
+           
         </div>
     </div>
     </div>
@@ -80,6 +81,8 @@ Front-end developer based in Myanmar
                 Mohinga is a rice noodle and fish soup from Myanmar and an essential part of Burmese cuisine, considered by many to be the national dish of Myanmar. Mohinga is readily available in most parts of the country, sold by street hawkers and roadside stalls in larger cities. Mohinga is traditionally eaten for breakfast, but today is eaten at any time of day.
             
             </li>
+             <br/>
+             <li class="btn btn-primary app"><a href="#menu" class="text-decoration-none text-white">Learn more</a></li>
             </ul>
         </div>
             <div class="col-md-6">
@@ -96,32 +99,87 @@ Front-end developer based in Myanmar
         </div>
         <div class="col-md-6">
             <ul>
-                <li class="kanji mt-4">
+                <li class="kanji mt">
             Japanese Language App
             </li>
             <li class="three-paragraph">
                Do you want to learn Japanese but don’t know where to start? There are many different ways to learn the language, and it can be tough to know which option is best for you. One of the best ways to learn is with an app. There are many different apps available, so how do you know which one of the many Japanese learning apps is right for you? The best Japanese learning…
             </li>
+             <br/>
+             <li class="btn btn-primary app"><a href="#menu" class="text-decoration-none text-white">Launch App</a></li>
             </ul>
         </div>
     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    
 
-    <footer class="d-flex justify-content-between">
-        
-        <div class="box" >
-            Work Inquiry
-        <p class="working">
-            Let's work together
-        </p>
+    <main class="d-none d-lg-block">
+
+<footer class="navbar fixed-bottom">
+  
+        <div class="col-sm-4">
+            <div>
+<a href="#" class="text-white"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" class="text-white"><i class="fa-brands fa-square-youtube"></i></a>
+<a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+</div>
+<div class="information">
+    2023 by Myanmar Niche
+</div>
         </div>
-        
-    <div class="btn btn-warning">
-        Contact me
+        <div class="col-2">
+        <div class="line">
+            │
+        </div>
+        </div>
+
+<div class="col-2">
+   
+   <div> Contact Us </div>
+    <div class="information">
+        Tel+95 695686268
+        <br>
+        Eamil : htayhtaythwe962@gmail.com
     </div>
-</footer>
+</div>
+<div class="col-2">
+            <div class="line">
+                │
+            </div>
+        </div>
+<div class="col-2">
+    <div>Address</div>
+    <div class="information">
+        No.36,Kawthaung,Thannintharyi
+    </div>
 </div>
 
+</footer>
+</div>
+</main>
 
+<ul class="data d-block d-lg-none fixed-bottom">
+<li class="navbar">
+    <a href="#" class="text-white"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" class="text-white"><i class="fa-brands fa-square-youtube"></i></a>
+<a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+ 2023 by Myanmar Niche
+</p>
+</li>
+<li class="navbar">
+Tel+95 695686268  Eamil : htayhtaythwe962@gmail.com
+</li>
+<li class="navbar">
+Address : No.36,Kawthaung,Thannintharyi
+</li>
+</ul>
 
 </body>
 </html>
